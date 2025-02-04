@@ -1,0 +1,6 @@
+[core]
+    remote = local_storage
+['remote "origin"']
+    url = https://github.com/asmith81/UCSD_Capstone_Invoice_Image_Processing
+['remote "local_storage"']
+    url = ../../dvc-storage
