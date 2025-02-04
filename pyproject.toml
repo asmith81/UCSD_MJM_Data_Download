@@ -1,0 +1,29 @@
+[project]
+name = "ucsd-mjm-capstone"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "asmith81",email = "alden.w.smith.iii@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "dvc (>=3.59.0,<4.0.0)",
+    "numpy (>=1.26.0,<2.1.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "scipy (>=1.15.1,<2.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "matplotlib (>=3.10.0,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "google-auth-oauthlib (>=1.2.1,<2.0.0)",
+    "google-api-python-client (>=2.160.0,<3.0.0)",
+    "google-auth-httplib2 (>=0.2.0,<0.3.0)",
+    "pymupdf (>=1.25.2,<2.0.0)",
+    "pillow (>=11.1.0,<12.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
