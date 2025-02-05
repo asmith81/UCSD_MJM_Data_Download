@@ -30,6 +30,7 @@ rapidfuzz = "^3.12.1"
 tensorflow-io-gcs-filesystem = "0.31.0"
 tensorflow = "2.15.0"
 jupyter = "^1.1.1"
+python-doctr = "^0.11.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
