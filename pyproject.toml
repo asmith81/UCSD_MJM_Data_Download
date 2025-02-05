@@ -26,8 +26,9 @@ pymupdf = ">=1.25.2,<2.0.0"
 pillow = ">=11.1.0,<12.0.0"
 ipykernel = ">=6.29.5,<7.0.0"
 git-lfs = ">=1.6,<2.0"
+rapidfuzz = "^3.12.1"
 tensorflow-io-gcs-filesystem = "0.31.0"
-python-doctr = {extras = ["tf"], version = "^0.11.0"}
+tensorflow = "2.15.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
